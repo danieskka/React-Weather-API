@@ -1,0 +1,47 @@
+.weather-list-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+background-color: #f5f5f5;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+.weather-list-form {
+margin-bottom: 20px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+.weather-list-input {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 300px;
+max-width: 100%;
+}
+
+.weather-list-button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #4caf50;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.weather-list-button:hover {
+background-color: #45a049;
+}
+
+.weather-list-location {
+margin-top: 0;
+}
+
+.weather-list-no-data {
+margin-top: 20px;
+font-style: italic;
+}

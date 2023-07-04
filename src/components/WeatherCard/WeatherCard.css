@@ -1,0 +1,26 @@
+.weather-card-container {
+padding: 20px;
+background-color: #f5f5f5;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+.weather-card-location {
+margin-top: 0;
+}
+
+.weather-card-item {
+margin-top: 20px;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+.weather-card-item h4 {
+margin-top: 0;
+}
+
+.weather-card-item p {
+margin: 5px 0;
+}
