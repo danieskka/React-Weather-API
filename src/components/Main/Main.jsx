@@ -19,7 +19,7 @@ const Main = () => {
           element= {
             <div>
               <WeatherCard city={city} />
-              <WeatherList city={city} onCityChange={handleCityChange} />
+              <WeatherList onCityChange={handleCityChange} />
             </div>
           }
         />
